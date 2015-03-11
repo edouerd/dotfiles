@@ -1,2 +1,9 @@
-# dotfiles
-dot dot dot
+dotfiles
+
+—
+
+This is a listing of dotfiles. :sparkles:
+
+• • •
+
+
