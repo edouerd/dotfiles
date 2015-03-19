@@ -1,0 +1,54 @@
+# A Brewfile
+
+# Terminal Utilities
+install imagemagick
+install libcaca
+install macvim
+install screenfetch
+install figlet
+install cowsay
+install fortune
+install libcaca
+install toilet
+install tmux
+
+# Install Cask
+install caskroom/cask/brew-cask
+
+# Utilities
+cask install caffeine
+cask install appcleaner
+cask install diskwave
+cask install imageoptim
+cask install licecap
+cask install the-unarchiver
+cask install transmission
+cask install transmit
+cask install vmware-fusion
+cask install dropbox
+
+#Design
+cask install sketch
+cask install adobe-creative-cloud
+cask install axure-rp-pro
+cask install framer-studio
+cask install layervault
+cask install makerware
+cask install pixate
+
+#Development
+cask install iterm2
+cask install atom
+cask install arduino
+cask install cactus
+cask install mamp
+cask install spark-dev
+cask install spark
+
+#Etc.
+cask install calibre
+cask install slack
+cask install dungeon-crawl-stone-soup-tiles
+cask install dwarf-fortress
+cask install steam
+cask install terraform
