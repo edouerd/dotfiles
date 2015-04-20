@@ -84,5 +84,7 @@ alias vim="/usr/local/Cellar/macvim/7.4-73_1/MacVim.app/Contents/MacOS/Vim"
 alias paths="echo $PATH | tr ':' '\n'"
 alias pastry="ssh pi@192.168.0.107"
 alias yolo="git commit -am 'DEAL WITH IT' && git push -f origin master"
+alias bs-static="browser-sync start --server --files 'css/*.css, *.html'"
 
+# Export RVM
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
