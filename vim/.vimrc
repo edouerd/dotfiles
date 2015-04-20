@@ -8,9 +8,9 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Plugins Begin
-Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'reedes/vim-thematic'
@@ -21,6 +21,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'raimondi/delimitMate'
 Plugin 'flomotlik/vim-livereload'
 
+
 " Plugins End
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,6 +29,12 @@ filetype plugin indent on    " required
 " Settings
 
 set t_Co=256
+
+" Custom Shit
+
+let g:netrw_liststyle=3
+let mapleader=" "
+map <leader>k :Explore<cr>
 
 " Tomorrow
 colorscheme Tomorrow-Night-Eighties
