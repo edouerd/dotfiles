@@ -1,11 +1,15 @@
-# Brewfile
-# `brew tap homebrew/boneyard && brew bundle` in the same directory to have it run
-#
-# Need Homebrew?
-# Run `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-# Or on a Linux box, run `ruby -e "$(wget -O- https://raw.github.com/Homebrew/linuxbrew/go/install)"`
+# Brewfile, or
+# "Automation is Great!"
 
+# Let's Install Cask:
+install caskroom/cask/brew-cask
+# Let's Install GUI Applications:
 tap 'caskroom/cask'
+# Alternative GUI App  Versions:
+tap 'caskroom/versions'
+
+# Binaries Go Here
+# Hella!
 
 install 'autoconf'
 # install 'autojump'
@@ -40,10 +44,8 @@ install 'wget'
 install 'xz'
 # install 'zsh'
 
-# Install Cask
-install caskroom/cask/brew-cask
-
 # Install Casks
+# Nice !
 
 # Internet and Communications
 cask install 'google-chrome-dev'
@@ -73,7 +75,7 @@ cask install 'arduino'
 cask install 'processing'
 cask install 'cactus'
 
-#Utilities and Tooling
+# Utilities and Tooling
 cask install 'transmission'
 cask install 'alfred'
 cask install 'dropshare'
@@ -83,3 +85,4 @@ cask install 'licecap'
 cask install 'the-unarchiver'
 cask install 'appcleaner'
 
+# Typography, Fonts
