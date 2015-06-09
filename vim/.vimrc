@@ -35,8 +35,10 @@ set t_Co=256
 let g:netrw_liststyle=3
 let mapleader=" "
 map <leader>k :Explore<cr>
+map <Esc><Esc> :w<CR>
+
 " Tabs
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 " Tomorrow
 colorscheme Tomorrow-Night-Eighties
