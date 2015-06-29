@@ -1,0 +1,26 @@
+{
+  "name": "grandson-of-obsidian",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "An Atom theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roryf/grandson-of-obsidian"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# Grandson Of Obsidian theme\n\nAtom theme based on the [Grandson-of-Obsidian](https://github.com/jfromaniello/Grandson-of-Obsidian) theme for TextMate and Sublime Text 2.\n\n### Install using Atom\n\n1. Go to `Atom -> Preferences...`\n2. Then select the `Themes` tab\n3. Enter `Obsidian` in the search box\n\n### Activating the theme\n\nGo to `Atom -> Preferences...`, click in the `Themes` tab, and select `Grandson Of Obsidian` in the `Syntax Theme` dropdown.\n\nCurrently just an `apm` convert of the original theme with added styles for invisibles.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/roryf/grandson-of-obsidian/issues"
+  },
+  "homepage": "https://github.com/roryf/grandson-of-obsidian",
+  "_id": "grandson-of-obsidian@0.1.0",
+  "dist": {
+    "shasum": "bf6fc10474ad84593df08f019c8399a951687170"
+  },
+  "_resolved": "/var/folders/tc/yrngdw_n7nq2yg3xmb7_fkfc0000gn/T/d-11474-6194-mc1zdn/package.tgz",
+  "_from": "/var/folders/tc/yrngdw_n7nq2yg3xmb7_fkfc0000gn/T/d-11474-6194-mc1zdn/package.tgz"
+}

@@ -1,0 +1,1 @@
+{"digest":"01703ab852b1cfb2fdabb7b3222c6bde2f4518b2","css":".wrap-guide {\n  height: 100%;\n  width: 1px;\n  z-index: 100;\n  position: absolute;\n  top: 0;\n  background-color: rgba(165, 165, 165, 0.32);\n}\n","imports":[{"path":"/Users/edouardurcadez/.atom/packages/zenburn/stylesheets/syntax-variables.less","digest":"46ccc231b907d2a1bf1180212dfc3d19901920fc"}],"version":1}

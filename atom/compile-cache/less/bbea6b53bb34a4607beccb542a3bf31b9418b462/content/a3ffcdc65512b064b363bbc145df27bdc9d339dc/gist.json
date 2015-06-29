@@ -1,0 +1,1 @@
+{"digest":"ebd095deb4159958904138d14b71c9de517683c2","css":".gist .loading {\n  margin: auto;\n  margin-top: 1em;\n  margin-bottom: 1em;\n}\n","imports":[{"path":"node_modules/atom-dark-ui/stylesheets/ui-variables.less","digest":"88449568a730803edd89868ac8bae7144588db72"}],"version":1}
