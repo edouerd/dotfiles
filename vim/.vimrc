@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " Plugins Begin
 Plugin 'kien/ctrlp.vim'
@@ -19,7 +19,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'valloric/YouCompleteMe'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'raimondi/delimitMate'
-Plugin 'flomotlik/vim-livereload'
+" Plugin 'flomotlik/vim-livereload'
 
 
 " Plugins End

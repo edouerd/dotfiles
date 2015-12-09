@@ -154,3 +154,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Please start Nitrogen when I restart i3!
+exec --no-startup-id nitrogen --restore
