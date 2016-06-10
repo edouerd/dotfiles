@@ -89,3 +89,8 @@ alias brokencam="sudo killall VDCAssistant && sudo killall AppleCameraAssistant"
 
 # Export RVM
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+
+export NVM_DIR=~/.nvm 
+source $(brew --prefix nvm)/nvm.sh  # This loads nvm

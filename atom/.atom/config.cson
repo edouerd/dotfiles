@@ -1,0 +1,10 @@
+"*":
+  "exception-reporting":
+    userId: "54728a28-646b-8dfc-05e8-20c094206ec2"
+  welcome:
+    showOnStartup: false
+  core: {}
+  editor:
+    invisibles: {}
+    softWrap: true
+    softWrapAtPreferredLineLength: true
